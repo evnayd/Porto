@@ -1,0 +1,16 @@
+.section-title {
+  margin: 0;
+  color: $details-color;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+  }
+}

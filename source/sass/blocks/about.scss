@@ -1,0 +1,28 @@
+.about {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: $details-color;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+
+  @media only screen and (min-width: $desktop-width) {
+    padding-top: 93px;
+    padding-bottom: 115px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+.about__text {
+  margin-top: 30px;
+
+  @media (min-width: $desktop-width) {
+    margin-top: 76px;
+  }
+}

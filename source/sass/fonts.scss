@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Libre Franklin";
+  src: local("Libre Franklin Regular", "Libre-Franklin Regular", "libre franklin regular");
+  src: url("../fonts/LibreFranklin-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Libre Franklin";
+  src: local("Libre Franklin Bold", "Libre-Franklin Bold", "libre franklin bold");
+  src: url("../fonts/LibreFranklin-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}

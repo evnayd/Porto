@@ -1,0 +1,21 @@
+.social__item a {
+    color: $details-color;
+}
+
+.social__item {
+  color: $details-color;
+  margin-top: 19px;
+  font-size: 12px;
+  line-height: 14px;
+  display: block;
+  margin-right: 20px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.social__item:hover {
+  text-decoration: underline;
+  }

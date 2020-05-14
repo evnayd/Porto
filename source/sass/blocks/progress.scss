@@ -1,0 +1,58 @@
+
+.progress {
+  background-color: $secondary-color;
+  justify-content: flex-start;
+  align-items: baseline;
+  display: flex;
+  height: 18px;
+  width: 200px;
+  margin-top: 14px;
+
+  @media (min-width: $tablet-width) {
+    width: 250px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 24px;
+    width: 446px;
+    margin-top: 19px;
+  }
+}
+
+.progress__value {
+  height: 18px;
+  background-color: $primary-color;
+  animation-delay: 2s;
+
+  @media (min-width: $desktop-width) {
+    height: 24px;
+    width: 0;
+    }
+}
+
+.progress__value--1 {
+  animation: load 7s normal forwards;
+}
+
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+.progress__value--2 {
+  animation: load2 7s normal forwards;
+}
+
+@keyframes load2 {
+  0% { width: 0; }
+  100% { width: 75%; }
+}
+
+.progress__value--3 {
+  animation: load3 7s normal forwards;
+}
+
+@keyframes load3 {
+  0% { width: 0; }
+  100% { width: 65%; }
+}
